@@ -9,10 +9,10 @@ public class Shooter : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (input.GetButtonDown ("Fire1")) Shot ();
+        if (Input.GetButtonDown ("Fire1")) Shot ();
     }
     public void Shot () {
-        GameObject candy = INstantiate (
+        GameObject candy = Instantiate (
             candyPrefab,
             transform.position,
             Quaternion.identity
