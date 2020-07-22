@@ -1334,6 +1334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CandyChocoMint
       objectReference: {fileID: 0}
+    - target: {fileID: 6964782501956575590, guid: 5e61e9fdca5d71743bdeb166c030eb40,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e61e9fdca5d71743bdeb166c030eb40, type: 3}
 --- !u!4 &805275225 stripped
